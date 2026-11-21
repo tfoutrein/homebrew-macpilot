@@ -1,7 +1,9 @@
 # Homebrew tap for macpilot
 
 ```bash
-brew install tfoutrein/macpilot/macpilot
+brew tap tfoutrein/macpilot
+brew trust tfoutrein/macpilot      # recent Homebrew asks to trust third-party taps
+brew install macpilot
 ```
 
 macpilot drives and verifies macOS apps through accessibility, in the background.
