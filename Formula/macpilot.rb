@@ -4,8 +4,8 @@
 class Macpilot < Formula
   desc "Drive and verify macOS apps through accessibility, in the background"
   homepage "https://github.com/tfoutrein/macpilot-releases"
-  url "https://github.com/tfoutrein/macpilot-releases/releases/download/v1.0.0/macpilot-1.0.0-universal.tar.gz"
-  sha256 "6719754a213c4649dbd54b3d4d144f94523800d4af3083f4417a7b0f2ddb5042"
+  url "https://github.com/tfoutrein/macpilot-releases/releases/download/v1.1.0/macpilot-1.1.0-universal.tar.gz"
+  sha256 "2a065ba0a7002d29b5c74638bb09a74d83ebc8bac59a7fffd8fc475e32deb219"
   license :cannot_represent # macpilot binary license, see the releases repository
 
   depends_on macos: :sonoma
